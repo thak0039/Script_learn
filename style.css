@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.img-btn-container img {
+    margin: auto;
+    display: flex;
+}
+
+.button-container {
+    text-align: center;
+}
+
+button {
+    padding: 1rem;
+    margin: 2rem 0;
+    width: 90px;
+    background-color: #fba918;
+    border: none;
+    border-radius: 10px;
+}

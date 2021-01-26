@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>First Script</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="img-btn-container">
+        <div class="button-container">
+            <button onclick="changeImg('./img/happy.png')" type="button">Happy</button>
+            <button onclick="changeImg('./img/sad.jpg')" type="button">Sad</button>
+        </div>
+
+        <img id="btn" width="600px" height="600px" src='/img/happy.png' alt="alt">
+
+    </div>
+
+
+    <script>
+        function changeImg(imageLink) {
+            document.getElementById('btn').src = imageLink;
+        }
+    </script>
+
+</body>
+
+</html>
